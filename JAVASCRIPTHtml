@@ -1,0 +1,40 @@
+<!DECTYPE html>
+<html>
+
+<head>
+
+<style>
+html{background-color:pink;margin:100px}
+</style>
+</head>
+<body>
+
+
+<ul>
+<li><p onclick="add()">addElement</p></li>
+<li><p onclick="add()">addElement</p></li>
+<li><p onclick="remove()" id="rem">removeElement</p></li>
+<li><p onclick="remo()" id="re">removeElement</p></li>
+</ul>
+
+<script>
+
+ function add(){
+
+var x =prompt("addelement");
+document.write(x);
+
+
+ }
+ 
+ 
+ function remove(){
+document.getElementById('rem').remove();
+ }
+ function remo(){
+document.getElementById('re').remove();
+ }
+ 
+</script>
+</body>
+</html>
